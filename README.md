@@ -32,7 +32,6 @@ streamlit run app.py
 - **TensorBoard Integration**: View training performance metrics directly within the Streamlit dashboard.
 
 ## Documentation
-- [Streamlit Guide](Streamlit.pdf)
+- [Streamlit UI](Streamlit.pdf)
 
----
-*Note: This project is part of the "01_ANN Classification" practice. The "02_project" directory is a separate project and should be treated as such.*
+
