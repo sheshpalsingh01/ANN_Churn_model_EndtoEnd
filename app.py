@@ -71,8 +71,5 @@ else:
     st.warning("🚨")
     st.write("The Customer is not likely to churn")
 
-# TensorBoard Integration
-st.header("TensorBoard Visualization")
-st_tensorboard(logdir="logs")
     
     
