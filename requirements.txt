@@ -6,4 +6,3 @@ scikit-learn==1.7.2
 tensorboard==2.20.0
 matplotlib==3.10.6
 streamlit==1.50.0
-streamlit-tensorboard

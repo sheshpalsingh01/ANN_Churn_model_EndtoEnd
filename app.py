@@ -1,13 +1,14 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 import pickle
 import tensorflow
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder,StandardScaler
 from tensorflow.keras.models import load_model
-from streamlit_tensorboard import st_tensorboard
+
+
 # Load the Train model
 model = load_model('04_model.h5', compile=False)
-
 with open('01_encoded_gender.pkl','rb') as f:
     encoded_gender=pickle.load(f)
 with open('02_encoded_geo.pkl','rb') as f:
@@ -29,8 +30,8 @@ credit_score =st.number_input('CreditScore')
 estimated_salery= st.number_input('EstimatedSalary')
 tenure=st.slider('Tenure',min_value=0,max_value=10)
 num_of_product=st.slider('NumOfProducts',min_value=1,max_value=6)
-has_cr_card=st.selectbox('HasCrCard',[0,1])
-is_active_memb=st.selectbox('IsActiveMember',[0,1])
+has_cr_card=st.selectbox('HasCrCard',[0,1],placeholder="0 means No and 1 yes")
+is_active_memb=st.selectbox('IsActiveMember',[0,1],placeholder="0 means No and 1 yes")
   
 
    

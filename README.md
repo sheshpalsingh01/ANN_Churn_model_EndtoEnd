@@ -1,5 +1,5 @@
 # ANN Customer Churn Prediction
-
+![alt text](<Screenshot from 2026-04-05 23-47-42.png>)
 This project implements an Artificial Neural Network (ANN) to predict customer churn based on a dataset of bank customers. It includes a Streamlit web application for interactive predictions and TensorBoard integration for visualizing training metrics.
 
 ## Project Structure
