@@ -5,7 +5,6 @@ import tensorflow
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder,StandardScaler
 from tensorflow.keras.models import load_model
 from streamlit_tensorboard import st_tensorboard
-from keras.models import load_model
 # Load the Train model
 model = load_model('04_model.h5', compile=False)
 

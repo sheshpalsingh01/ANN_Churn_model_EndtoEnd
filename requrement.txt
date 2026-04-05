@@ -1,9 +1,0 @@
-tensorflow==2.20.0
-ipykarnel==6.30.1
-pandas==2.3.3
-numpy==1.26.4
-scikit-learn==1.7.2
-tensorboard==2.20.0
-matplotlib==3.10.6
-streamlit==1.50.0
-streamlit-tensorboard
